@@ -87,7 +87,6 @@ export default class GameScene {
 
     // adding ambient light controller 
     let ambientFolder = this.gui.addFolder('Ambient Light')
-    console.log(ambientFolder, this.ambientLight)
     ambientFolder.add(this.ambientLight, 'intensity', 0, 3)
 
     // adding point light controller
